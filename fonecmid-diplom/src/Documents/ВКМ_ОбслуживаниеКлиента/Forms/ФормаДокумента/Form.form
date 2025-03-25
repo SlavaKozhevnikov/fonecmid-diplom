@@ -620,57 +620,6 @@
       <heightControlVariant>ByContent</heightControlVariant>
     </extInfo>
   </items>
-  <items xsi:type="form:FormField">
-    <name>Комментарий</name>
-    <id>28</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
-    </dataPath>
-    <extendedTooltip>
-      <name>КомментарийРасширеннаяПодсказка</name>
-      <id>30</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <contextMenu>
-      <name>КомментарийКонтекстноеМеню</name>
-      <id>29</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>InputField</type>
-    <editMode>EnterOnInput</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:InputFieldExtInfo">
-      <autoMaxHeight>true</autoMaxHeight>
-      <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
-      <chooseType>true</chooseType>
-      <typeDomainEnabled>true</typeDomainEnabled>
-      <textEdit>true</textEdit>
-      <heightControlVariant>ByContent</heightControlVariant>
-    </extInfo>
-  </items>
   <items xsi:type="form:Table">
     <name>ВыполненныеРаботы</name>
     <id>31</id>
@@ -1056,6 +1005,108 @@
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <rowFilter xsi:type="core:UndefinedValue"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Комментарий</name>
+    <id>28</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Комментарий</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>КомментарийРасширеннаяПодсказка</name>
+      <id>30</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>КомментарийКонтекстноеМеню</name>
+      <id>29</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+      <heightControlVariant>ByContent</heightControlVariant>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>Ответственный</name>
+    <id>66</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Ответственный</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ОтветственныйРасширеннаяПодсказка</name>
+      <id>68</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ОтветственныйКонтекстноеМеню</name>
+      <id>67</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <extendedEditMultipleValues>true</extendedEditMultipleValues>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
