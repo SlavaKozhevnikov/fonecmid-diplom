@@ -110,6 +110,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.Пользователи.StandardCommand.Create</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Document.ВКМ_НачислениеЗарплаты.StandardCommand.Create</command>
       <visible>
         <common>true</common>
@@ -228,6 +234,7 @@
     <orderFragments>
       <group>ActionsPanelCreate</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.Create</commands>
+      <commands>Catalog.Пользователи.StandardCommand.Create</commands>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.Create</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</commands>
@@ -237,7 +244,6 @@
       <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.Create</commands>
       <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.Create</commands>
       <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.Create</commands>
-      <commands>Catalog.Пользователи.StandardCommand.Create</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>
