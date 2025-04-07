@@ -2,6 +2,12 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <commandsVisibility>
     <visibilityFragments>
+      <command>Catalog.Номенклатура.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>Catalog.Контрагенты.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -77,6 +83,7 @@
   <commandsPlacement>
     <placementFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
@@ -94,6 +101,7 @@
   <commandsOrder>
     <orderFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
       <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.OpenList</commands>
@@ -115,6 +123,8 @@
       <commands>Catalog.ВКМ_УведомленияТелеграмБоту.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ОбслуживаниеКлиента.StandardCommand.Create</commands>
       <commands>Document.РеализацияТоваровУслуг.StandardCommand.Create</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.Create</commands>
+      <commands>Catalog.Номенклатура.StandardCommand.CreateFolder</commands>
     </orderFragments>
     <orderFragments>
       <group>ActionsPanelTools</group>
