@@ -27,12 +27,20 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Основные начисления</value>
+    <value>Основное начисление</value>
   </objectPresentation>
   <extendedObjectPresentation>
     <key>ru</key>
-    <value>Основные начисления</value>
+    <value>Основное начисление</value>
   </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </extendedListPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>
